@@ -9,7 +9,7 @@ function App() {
           Hello Tailwind CSS!
         </h1>
         <p className="text-lg text-gray-700">
-          This text is styled with Tailwind utility classes.
+          This text is styled with Tailwind.
         </p>
         <button className="mt-6 px-6 py-3 bg-green-500 text-white font-semibold rounded-md hover:bg-green-600 transition duration-300">
           Click Me
