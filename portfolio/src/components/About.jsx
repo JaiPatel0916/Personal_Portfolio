@@ -115,33 +115,33 @@ export default function About() {
                 <div ref={educationRef}>
                     <h3 className="text-2xl font-semibold mb-6">Education Journey</h3>
 
-                    <div className="space-y-6">
+                    <div className="space-y-8">
                         {[
                             {
-                                title: "Master of Science in Computer Science",
-                                date: "2021 - 2023",
-                                university: "Your University",
-                                location: "Your City, Your Country",
-                                tags: ["GPA: 3.9/4.0", "Dean's List"]
+                                title: "Bachelor of Technology in Computer Science",
+                                date: "2022 - Present",
+                                university: "S.B Jain Institute of Technology Management and Research",
+                                location: "Yerla, Nagpur",
+                                tags: ["CGPA: 8.67/10.0",]
                             },
                             {
-                                title: "Bachelor of Technology in Software Engineering",
-                                date: "2017 - 2021",
-                                university: "Your University",
-                                location: "Your City, Your Country",
-                                tags: ["GPA: 3.8/4.0", "Hackathon Winner"]
+                                title: "Higher Secondary Certificate (12th) ",
+                                date: "2020 - 2022",
+                                university: "Bharti Krishna Vidya Vihar",
+                                location: "Nagpur",
+                                tags: ["Percentage: 71%"]
                             },
                             {
-                                title: "Bachelor of Technology in Software Engineering",
-                                date: "2017 - 2021",
-                                university: "Your University",
-                                location: "Your City, Your Country",
-                                tags: ["GPA: 3.8/4.0", "Hackathon Winner"]
+                                title: " Secondary School Certificate (10th)",
+                                date: "2019-2020",
+                                university: "Bharti Krishna Vidya Vihar",
+                                location: "Nagpur",
+                                tags: ["Percentage: 76%"]
                             }
                         ].map((edu, i) => (
                             <motion.div
                                 key={i}
-                                className="bg-gray-800/60 p-4 rounded-xl border border-gray-700"
+                                className="bg-gray-800/60 p-6 rounded-xl border border-gray-700"
                                 variants={itemVariants}
                                 initial="hidden"
                                 animate={startAnimation ? "visible" : "hidden"}
