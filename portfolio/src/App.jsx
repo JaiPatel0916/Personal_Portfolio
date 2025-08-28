@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import About from './components/About'
 import Skills from './components/Skills';
 import CanvasCursor from './components/CanvasCursor';
+import ExperienceTimeline from './components/ExperienceTimeline';
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
+      <ExperienceTimeline />
       <Skills />
     </div>
   )

@@ -8,7 +8,7 @@ export default function Navbar() {
     const links = [
         { name: "Home", icon: <FaHome />, href: "#home" },
         { name: "About", icon: <FaUser />, href: "#about" },
-        { name: "Skills", icon: <FaCode />, href: "#skills" },
+        { name: "Experience", icon: <FaCode />, href: "#experience" },
         { name: "Projects", icon: <FaBoxOpen />, href: "#projects" },
         { name: "Contact", icon: <FaEnvelope />, href: "#contact" },
     ];

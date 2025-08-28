@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import {
     FaReact,
     FaNodeJs,
-    FaPython,
+    
     FaGitAlt,
     FaFire,
 } from "react-icons/fa";
@@ -32,7 +32,7 @@ const skills = [
     { name: "Tailwind", icon: <SiTailwindcss className="text-cyan-400 text-5xl" /> },
     { name: "Node.js", icon: <FaNodeJs className="text-green-500 text-5xl" /> },
     { name: "Express", icon: <SiExpress className="text-gray-300 text-5xl" /> },
-    { name: "Python", icon: <FaPython className="text-yellow-400 text-5xl" /> },
+   
     { name: "MongoDB", icon: <SiMongodb className="text-green-400 text-5xl" /> },
     { name: "Git", icon: <FaGitAlt className="text-orange-500 text-5xl" /> },
     { name: "GitHub", icon: <SiGithub className="text-gray-300 text-5xl" /> },
