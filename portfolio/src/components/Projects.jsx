@@ -91,7 +91,7 @@ export default function Projects() {
                                 : "text-gray-400 hover:text-white"
                             }`}
                     >
-                        Client Work
+                        Client Projects
                     </button>
                 </div>
             </div>
