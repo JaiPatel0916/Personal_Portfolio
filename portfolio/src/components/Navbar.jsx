@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { FaHome, FaUser, FaCode, FaBoxOpen, FaEnvelope, FaBars, FaTimes } from "react-icons/fa";
 
-export default function Navbar() {
+export default function Navbar()
+{
     const [active, setActive] = useState("Home");
     const [isOpen, setIsOpen] = useState(false);
 

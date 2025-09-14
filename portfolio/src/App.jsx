@@ -5,6 +5,7 @@ import About from './components/About'
 import Skills from './components/Skills';
 import CanvasCursor from './components/CanvasCursor';
 import ExperienceTimeline from './components/ExperienceTimeline';
+import Projects from './components/Projects';
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <About />
       <ExperienceTimeline />
       <Skills />
+      <Projects />
     </div>
   )
 }
